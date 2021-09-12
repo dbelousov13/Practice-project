@@ -410,4 +410,33 @@
     color: white
     background-color: #28D2D1
 
+.startContestContainer
+  display: flex
+  justify-content: space-between
+  align-items: center
+  box-sizing: border-box
+  max-width: 1140px
+  width: 100%
+  padding: 24px
+  margin: 40px
+  background: linear-gradient(to right, #3CA5F7, #404BA9)
+
+  &>span 
+    color: white
+    padding: 10px 15px
+    line-height: 1.5
+
+  &>a 
+    text-decoration: none
+    text-align: center
+    padding: 12px 16px
+    background-color: white
+    color: black
+    transition: all 0.5s
+    &:hover
+      transform: translateY(-3px) 
+      box-shadow: 1px 4px 5px rgba(255,255,255,0.35)
+
+  @media screen and (max-width: 575px)    
+    flex-wrap: wrap
 
